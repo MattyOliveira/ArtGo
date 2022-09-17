@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/app_main"
+    app:startDestination="@id/loginFragment">
+
+    <fragment
+        android:id="@+id/instructionFragment"
+        android:name="br.com.t4.artgoproject.ui.onboarding.InstructionFragment"
+        android:label="InstructionFragment">
+        <deepLink
+            android:id="@+id/deepLink"
+            app:uri="app://artgo/ONBOARDING_INSTRUCTIONS" />
+    </fragment>
+    <fragment
+        android:id="@+id/onboardingInputDataFragment"
+        android:name="br.com.t4.artgoproject.ui.onboarding.OnboardingInputDataFragment"
+        android:label="OnboardingInputDataFragment" >
+        <argument android:name="userId"
+            app:argType="string"
+            android:defaultValue="0"
+        />
+        <deepLink
+            app:uri="app://artgo/ONBOARDING_DATA" />
+    </fragment>
+    <fragment
+        android:id="@+id/onboardingInputPriceFragment"
+        android:name="br.com.t4.artgoproject.ui.onboarding.OnboardingInputPriceFragment"
+        android:label="OnboardingInputPriceFragment">
+        <deepLink
+            app:uri="app://artgo/ONBOARDING_PRICE" />
+    </fragment>
+    <fragment
+        android:id="@+id/onboardingSelectTypeFragment"
+        android:name="br.com.t4.artgoproject.ui.onboarding.OnboardingSelectTypeFragment"
+        android:label="OnboardingSelectTypeFragment">
+        <deepLink
+            app:uri="app://artgo/ONBOARDING_TYPE" />
+    </fragment>
+    <fragment
+        android:id="@+id/onboardingStart"
+        android:name="br.com.t4.artgoproject.ui.onboarding.OnboardingStart"
+        android:label="OnboardingStart">
+        <deepLink
+            app:uri="app://artgo/ONBOARDING_START" />
+    </fragment>
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="br.com.t4.artgoproject.ui.login.LoginFragment"
+        android:label="LoginFragment">
+        <deepLink
+            app:uri="app://artgo/LOGIN_AUTH" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/listContactFragment"
+        android:name="br.com.t4.artgoproject.ui.listcontact.ListContactFragment"
+        android:label="ListContactFragment">
+        <deepLink
+            app:uri="app://artgo/LIST_CONTACT" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/chatFragment"
+        android:name="br.com.t4.artgoproject.ui.chat.ChatFragment"
+        android:label="ChatFragment">
+        <argument
+            android:name="id"
+            android:defaultValue=""/>
+        <deepLink
+            app:uri="app://artgo/CHAT/{id}" />
+    </fragment>
+
+</navigation>

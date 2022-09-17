@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "731827920944",
+    "project_id": "artgoproject",
+    "storage_bucket": "artgoproject.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:731827920944:android:ad1b9a9fb2de5f0b674df5",
+        "android_client_info": {
+          "package_name": "br.com.t4.artgoproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "731827920944-4bnkjmqlpl31oaclovloe2qgp9c1g2ts.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDkKnTbdpXLtFy9bW2tedQe_DtSgYCQEMU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "731827920944-4bnkjmqlpl31oaclovloe2qgp9c1g2ts.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

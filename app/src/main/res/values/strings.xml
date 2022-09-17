@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ArtGoProject</string>
+    <string name="iam_music_title">Sou um músico</string>
+    <string name="iam_contract_title">Sou um contratante</string>
+    <string name="iam_contract_subtitle">E quero encontrar um músico</string>
+    <string name="iam_music_subtitle">E quero divulgar meu trabalho</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
